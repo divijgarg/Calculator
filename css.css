@@ -1,0 +1,39 @@
+.color{
+    background-color: aliceblue;
+    width: 860px;
+    height: 35px;
+    font-size:35px;
+}
+body{
+    border-style: solid;
+    width: 860px;
+
+}
+#head1{
+    font-family:Calibri;
+    font-size: 40px;
+    width:20px;
+}
+#num{
+    width: 100px;
+    font-size: 20px;
+}
+/**Button CSS from w3schools:https://www.w3schools.com/css/css3_buttons.asp**/
+#num {
+    background-color:skyblue;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius:4px;
+    transition-duration: 0.4s;
+}
+#num:hover{
+    background-color: #4CAF50;
+    color: white;
+}
